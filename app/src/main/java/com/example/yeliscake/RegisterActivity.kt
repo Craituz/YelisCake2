@@ -83,7 +83,7 @@ class RegisterActivity : AppCompatActivity() {
             )
 
             // Guardar en Room y Firebase
-            val dao = AppDatabase.getInstance(this).UsuarioDao()
+            val dao = AppDatabase.getInstance(this).usuarioDao()
 
             lifecycleScope.launch {
                 try {
